@@ -5,7 +5,7 @@ void main() {
   var choices = ['batu', 'gunting', 'kertas'];
   var random = Random();
 
-  print('Pilih salah satu: batu, gunting, atau kertas:');
+  print('Pilih: batu, gunting, atau kertas:');
   String? userChoice = stdin.readLineSync()?.toLowerCase();
 
   if (!choices.contains(userChoice)) {
